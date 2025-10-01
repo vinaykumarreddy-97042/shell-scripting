@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "today date is:$(date+%D)"
+echo "today date is: $(date+%D)"
