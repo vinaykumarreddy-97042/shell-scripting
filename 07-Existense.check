@@ -1,0 +1,8 @@
+#!/bin/bash
+filename="test.txt"
+if [ -f "$filename"];
+then
+echo "$filename exits."
+else
+echo "$filename does not exists
+fi
