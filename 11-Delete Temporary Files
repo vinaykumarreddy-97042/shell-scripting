@@ -1,0 +1,5 @@
+#!/bin/bash
+# Delete .tmp files from /tmp directory
+echo "Deleting .tmp files..."
+rm -v /tmp/*.tmp
+echo "Cleanup complete!"
