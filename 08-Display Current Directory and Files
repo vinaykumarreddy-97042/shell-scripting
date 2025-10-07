@@ -1,0 +1,5 @@
+#!/bin/bash
+# Display current directory and files
+echo "Current Directory: $(pwd)"
+echo "Files in this directory:"
+ls
