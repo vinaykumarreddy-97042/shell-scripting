@@ -1,0 +1,12 @@
+#!/bin/bash
+# This script displays system information
+
+echo "System Information Script"
+echo "=========================="
+echo "Hostname: $(hostname)"
+echo "Operating System: $(uname -o)"
+echo "Kernel Version: $(uname -r)"
+echo "CPU Info: $(lscpu | grep 'Model name' | awk -F: '{print $2}')"
+echo "Total Memory: $(free -h | grep Mem | awk '{print $2}')"
+echo "Disk Usage:"
+df -h | grep '^/dev/'
